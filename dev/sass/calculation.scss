@@ -1,0 +1,78 @@
+.calculation {
+	@extend .container;
+	padding: $section-padding;
+	margin: auto;
+
+	.template-title-left {
+		max-width: 626px;
+	}
+}
+.form-calculation {
+	background-color: $accest-background;
+	border-radius: 20px;
+	max-width: 626px;
+
+	padding: 50px 20px 60px 20px;
+	.row {
+		margin: 0 15px;
+
+		.btn {
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 146%;
+			padding: 20px 27px;
+		}
+	}
+	.col-md-6 {
+		padding: 0 15px;
+
+		&.button-group {
+			padding-top: 19px;
+		}
+	}
+	.col-md-12 {
+		label {
+			margin-bottom: 12px;
+		}
+		input {
+			width: 0.1px;
+			height: 0.1px;
+			opacity: 0;
+			overflow: hidden;
+			position: absolute;
+			z-index: -1;
+		}
+		.labelfile {
+			width: 100%;
+			height: 43px;
+			background-color: inherit;
+			border: 1px dashed rgba(255, 255, 255, 0.26);
+			border-radius: 10px;
+			text-align: center;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 126%;
+			padding: 10px;
+
+			&:hover {
+				border: 1px solid rgb(138, 132, 132);
+				box-shadow: rgba(211, 211, 232, 0.997) 0px 0px 11px 0px;
+			}
+		}
+	}
+}
+.calculation-row {
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+	.img-box {
+		position: absolute;
+		bottom: -100px;
+		right: -56px;
+		width: Min(40vw, 625px);
+	}
+}
+
+/*//////about company*/
+
+/*/ copiration */

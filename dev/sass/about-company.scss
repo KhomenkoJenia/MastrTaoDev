@@ -1,0 +1,55 @@
+/*.about-company{
+  &__text{
+      margin-right: 25px;
+  }
+  &__title{
+  position: relative;
+  margin:44px 0 65px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 124.5%;
+  text-transform: uppercase;
+  &::before{
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: 2px;
+  width: 5.3125rem;
+  background-image: url("data:image/svg+xml,%3Csvg width='85' height='2' viewBox='0 0 85 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='85' height='2' fill='%2389C249'/%3E%3C/svg%3E");
+  
+  }
+  }
+  &__subtitle{
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 170%;
+  }
+  .container{
+      display: flex;
+      margin-top: 91px;
+      margin-bottom: 50px;
+
+  }
+  
+}*/
+.about-company {
+	padding: $section-padding;
+	display: flex;
+	margin: auto;
+
+	&__text {
+		margin-right: 25px;
+	}
+
+	&__subtitle {
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 170%;
+	}
+	.about-box {
+		display: flex;
+		margin-top: 91px;
+		margin-bottom: 50px;
+	}
+}
